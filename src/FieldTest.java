@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 
-public class FiledTest {
+public class FieldTest {
 
 	@Test
 	public void test() {
