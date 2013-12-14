@@ -7,7 +7,13 @@ public class FieldTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		int[][] points={
+				{1,0},
+				{1,1},
+				{1,2},
+		};
+		Field field=new Field(points);
+		assertTrue(field.cell_at(1, 1));
 	}
 
 }
