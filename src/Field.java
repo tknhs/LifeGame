@@ -1,4 +1,7 @@
 class Field {
+  public Field(int[][] points) {
+  }
+
   public boolean cell_at(int x, int y) {
     return false;
   }
